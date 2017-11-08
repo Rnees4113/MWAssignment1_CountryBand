@@ -12,7 +12,7 @@
   <title>Boots 'N Beer: Homepage</title>
 </head>
 <body>
-  <?php include 'navigation.php'; ?>
+  <?php include "navigation.php"; ?>
   <br>
   <article>
     <h2 style="text-align:center;">The Boots N' Beer Band Homepage</h2>
