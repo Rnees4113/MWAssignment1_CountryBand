@@ -13,10 +13,13 @@
   <nav>
     <ul>
       <li>
-        <a href="album_page.html">Albums</a>
+        <a href="index.html">Index</a>
       </li>
       <li>
-        <a href="index.html">Index</a>
+        <a href="about_page.html">About Us</a>
+      </li>
+      <li>
+        <a href="album_page.html">Albums</a>
       </li>
       <li>
         <a href="info_page.html">Members' Information</a>
