@@ -7,7 +7,7 @@
   <title>Boots N' Beer: Information Page</title>
 </head>
 <body>
-  <?php include 'navigation.php'; ?>
+<?php include "../resources/navigation.php"; ?>
   <br>
   <article>
     <h2>Information Page</h2>
@@ -37,8 +37,6 @@
     even the bongos! Jake says that he has playing drums ever since he was a kid, whether it was when he bought his first pair
     of drums or when he was beating on the trash can outside, he just felt this rhythm inside!</p>
   </article><br>
-  <footer>
-    &copy; 2017 by Boots 'N Beer
-  </footer>
+  <?php include "../resources/footer.php"; ?>
 </body>
 </html>

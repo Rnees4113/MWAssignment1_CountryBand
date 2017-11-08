@@ -7,7 +7,7 @@
   <title>Boots N' Beer: Log-in Page</title>
 </head>
 <body>
-  <?php include 'navigation.php'; ?>
+  <?php include "../resources/navigation.php"; ?>
   <br>
   <article>
     <h2>Log-in Page</h2>
@@ -23,8 +23,6 @@ Password: <input type="text" name="password">
     advertisements, or just to get to know your favorite band members of the group!</p>
     <p>Has all links for other pages about the band and their events, schedules, merchandising, and contact information.</p>
   </article><br>
-  <footer>
-    &copy; 2017 Boots 'N Beer Band
-  </footer>
+  <?php include "../resources/footer.php"; ?>
 </body>
 </html>

@@ -7,7 +7,7 @@
   <title>Boots N' Beer Band: About Page</title>
 </head>
 <body>
-  <?php include 'navigation.php'; ?>
+  <?php include "../resources/navigation.php"; ?>
   <br>
   <article>
     <h2>About the Band</h2>
@@ -46,8 +46,6 @@
     <p>This website was brought to you by students of Simpson College. Click the image below to go Simpson's
     website.</p><a href="http://simpson.edu"><img alt="Simpson Logo" src="img/psudo_simpsonlogo.png"></a>
   </article><br>
-  <footer>
-    &copy; 2017 by Boots 'N Beer
-  </footer>
+  <?php include "../resources/footer.php"; ?>
 </body>
 </html>

@@ -7,7 +7,7 @@
   <title>Boots N' Beer Band Album Page</title>
 </head>
 <body>
- <?php include 'navigation.php'; ?>
+ <?php include "../resources/navigation.php"; ?>
  <br>
   <article>
     <h2>Studio Albums</h2>
@@ -53,8 +53,6 @@
       Golden Fiddle Records located at 1234 Shawqa Avenue in Des Moines, IA.
     </address>
   </article><br>
-  <footer>
-    &copy; 2017 by Boots 'N Beer
-  </footer>
+ <?php include "../resources/footer.php"; ?>
 </body>
 </html>

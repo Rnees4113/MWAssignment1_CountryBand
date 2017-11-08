@@ -7,34 +7,8 @@
   <title>Boots N' Beer: Sign-up</title>
 </head>
 <body>
-  <header>
-    <h1>The Boots N' Beer Band</h1>
-  </header>
-  <nav>
-    <ul>
-      <li>
-        <a href="about_page.html">About Us</a>
-      </li>
-      <li>
-        <a href="album_page.html">Albums</a>
-      </li>
-      <li>
-        <a href="index.html">Index</a>
-      </li>
-      <li>
-        <a href="info_page.html">Members' Information</a>
-      </li>
-      <li>
-        <a href="log-in_page.html">Log-in</a>
-      </li>
-      <li>
-        <a href="schedule_page.html">Schedule</a>
-      </li>
-      <li>
-        <a href="store_page.html">Merchandise</a>
-      </li>
-    </ul>
-  </nav><br>
+  <?php include "../resources/navigation.php"; ?>
+  <br>
   <article>
     <h2>Sign Up Page</h2>
     <p>By creating an account, you will be able to keep a shopping cart of merchandise you intend on purchasing if you leave
@@ -49,8 +23,6 @@ Password:   <input type="text" name="password">
 </pre>
     </form>
   </article><br>
-  <footer>
-    &copy; 2017 by Boots 'N Beer
-  </footer>
+  <?php include "../resources/footer.php"; ?>
 </body>
 </html>

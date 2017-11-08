@@ -36,8 +36,6 @@
       Phone number: 123-456-7890, email: matt.rockhold@my.simspon.edu
     </address>
   </article><br>
-  <footer>
-    &copy; 2017 by Boots 'N Beer
-  </footer>
+  <?php include "../resources/footer.php"; ?>
 </body>
 </html>

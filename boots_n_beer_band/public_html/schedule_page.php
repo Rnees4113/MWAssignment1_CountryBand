@@ -7,34 +7,8 @@
   <title>Boots N' Beer: Tour Schedule</title>
 </head>
 <body>
-  <header>
-    <h1>The Boots N' Beer Band</h1>
-  </header>
-  <nav>
-    <ul>
-      <li>
-        <a href="about_page.html">About Us</a>
-      </li>
-      <li>
-        <a href="album_page.html">Albums</a>
-      </li>
-      <li>
-        <a href="index.html">Index</a>
-      </li>
-      <li>
-        <a href="info_page.html">Members' Information</a>
-      </li>
-      <li>
-        <a href="log-in_page.html">Log-in</a>
-      </li>
-      <li>
-        <a href="signup_page.html">Sign up</a>
-      </li>
-      <li>
-        <a href="store_page.html">Merchandise</a>
-      </li>
-    </ul>
-  </nav><br>
+  <?php include "../resources/navigation.php"; ?>
+  <br>
   <article>
     <h2>Tour Schedule</h2>
     <p>For the upcoming tour, Boots 'N Beer will be performing at the following locations:</p>
@@ -56,8 +30,6 @@
     </ol>
     <h3>More Dates To Be Announced...</h3>
   </article><br>
-  <footer>
-    &copy; 2017 by Boots 'N Beer
-  </footer>
+  <?php include "../resources/footer.php"; ?>
 </body>
 </html>
