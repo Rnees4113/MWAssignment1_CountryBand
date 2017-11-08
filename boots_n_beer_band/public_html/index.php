@@ -12,34 +12,8 @@
   <title>Boots 'N Beer: Homepage</title>
 </head>
 <body>
-  <header>
-    <h1>The Boots N' Beer Band</h1>
-  </header>
-  <nav>
-    <ul>
-      <li>
-        <a href="about_page.html">About Us</a>
-      </li>
-      <li>
-        <a href="album_page.html">Albums</a>
-      </li>
-      <li>
-        <a href="info_page.html">Members' Information</a>
-      </li>
-      <li>
-        <a href="log-in_page.html">Log-in</a>
-      </li>
-      <li>
-        <a href="schedule_page.html">Schedule</a>
-      </li>
-      <li>
-        <a href="signup_page.html">Sign up</a>
-      </li>
-      <li>
-        <a href="store_page.html">Merchandise</a>
-      </li>
-    </ul>
-  </nav><br>
+  <?php include 'navigation.php'; ?>
+  <br>
   <article>
     <h2 style="text-align:center;">The Boots N' Beer Band Homepage</h2>
     <p>Welcome to the Boots 'N Beer Band official website, home to Iowa's favorite small-town band! See the different links on
